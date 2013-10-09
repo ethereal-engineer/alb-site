@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article id="clientproject" class="clientproject">
+	<div class="media">
+		<% if @document.storeurl: %>
+		<a class="pull-left" href="<%= @document.storeurl %>" target="blank">
+			<img class="media-object img-rounded" src="/images/appicons/<%= @document.icon %>">
+<!-- 			<img src="/images/icons/app-store-available.png"> -->
+		</a>
+		<% else: %>
+		<a class="pull-left" href="#">
+			<img class="media-object img-rounded" src="/images/appicons/<%= @document.icon %>">
+		</a>
+		<% end %>
+		<div class="media-body">
+			<h3 class="media-heading">
+				<%= @document.title %> <!-- N.B. Space here -->
+				<small><%= if @document.subclientname then "#{@document.clientname} / #{@document.subclientname}" else "#{@document.clientname}" %></small>
+				<img class="pull-right img-responsive" src="/images/icons/ipad-icon.png">
+				<img class="pull-right img-responsive" src="/images/icons/iphone-5-icon.png">
+			</h3>
+			<h4>Roles</h4>
+			<% for role in @document.roles: %>
+					<span class="label label-default"><%= role %></span>
+			<% end %>
+			<h4>Categories</h4>
+			<% for category in @document.categories: %>
+					<span class="label label-default"><%= category %></span>
+			<% end %>
+			<h4>Technologies</h4>
+			<% for technology in @document.technologies: %>
+					<span class="label label-primary"><%= technology %></span>
+			<% end %>
+			<div class="clientproject-content"><%- @content %></div>
+		</div>
+	</div>
+</article>
