@@ -91,6 +91,9 @@ docpadConfig = {
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
 
+		clientprojects: (database) ->
+			database.findAllLive({tags:$has:'clientproject'}, [date:-1])
+
 
 	# =================================
 	# Plugins
