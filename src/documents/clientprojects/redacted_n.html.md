@@ -1,5 +1,5 @@
 ```
-title: Project N
+title: Project S8
 layout: clientproject
 tags: ['clientproject']
 clientname: (names redacted)
@@ -14,9 +14,9 @@ device: iPhone
 ```
 #### Summary
 
-*This as-yet unreleased project remains under a Non-Disclosure Agreement and as such, names have been withheld to protect the client's privacy.*
+*This project has not been released and is currently of unknown status. Any identifying features have been removed.*
 
-Project N was a vintage video effects app unlike anything that's currently available. While staying true to the 4:3 "Super 8" format, it delivered a crisp, modern UI and immersive experience. Every pixel was crafted under a magnifying glass by the client's artists. Users could select from several "cartridges" with which to record their video. Once chosen, the user was immersed in the world of their creation with a live preview of their footage with all cartridge effects applied. Detailed visual artefacts, formulae and design made sure that no two "reels" were the same by randomising a plethora of effects and values. What resulted was nothing short of an incredibly convincing vintage video simulation.
+Project S8 was a vintage video effects app unlike anything that's currently available. While staying true to the 4:3 "Super 8" format, it delivered a crisp, modern UI and immersive experience. Every pixel was crafted under a magnifying glass by the client's artists. Users could select from several "cartridges" with which to record their video. Once chosen, the user was immersed in the world of their creation with a live preview of their footage with all cartridge effects applied. Detailed visual artefacts, formulae and design made sure that no two "reels" were the same by randomising a plethora of effects and values. What resulted was nothing short of an incredibly convincing vintage video simulation.
 
 #### Features
 
