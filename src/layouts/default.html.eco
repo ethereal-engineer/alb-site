@@ -82,7 +82,7 @@
 				<br>
 				<p class="pull-left">&copy; <%= @site.author %> <%- (new Date()).getFullYear() %></p>
 				<p class="pull-right">
-					This website was last updated at <%= @site.date.toISOString() %>
+					This website was last feebly updated at <%= @site.date.toISOString() %>
 				</p>
 			</div>
 			<div class="row">

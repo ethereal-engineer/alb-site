@@ -7,7 +7,7 @@ title: 'Home'
 <div class="jumbotron">
 	<h1>App Life Balance</h1>
 	<p>
-		I'm slowly putting together a place where I can store all of the things I regularly recommend or tweet about. This will be it, hopefully. There's a learning curve involved, as I'm not a web developer and I don't have a lot of free time. You'll just have to bear with me for now.
+		The personal site of a dedicated iOS developer, Meditator, Tea Enthusiast and PWNc.
 	</p>
 	<div class="row">
 		<div class="col-md-6 text-center">
@@ -30,5 +30,24 @@ title: 'Home'
 		<h2>Tools</h2>
 		<p>I'm always on the prowl for tricks, techniques and tools to make my workflow as an iOS developer more efficient, more productive and more enjoyable. This is where I lay out the tools that I use and recommend to my peers.</p>
 		<p><a class="btn btn-default" href="pages/tools">Go to Tools</a></p>
+	</div>
+</div>
+<div class="row" class="text-center">
+	<div class="col-md-6">
+		<h2>Blog</h2>
+		<p>Industry rants. Random utterances. Soliloquy.</p>
+		<p><a class="btn btn-default" href="pages/posts">Go to Blog</a></p>
+	</div>
+	<div class="col-md-6">
+		<h2>Resume</h2>
+		<p>A bunch of words that try to explain how awesome I am. Humble, too.</p>
+		<p><a class="btn btn-default" href="pages/resume">Go to Resume</a></p>
+	</div>
+</div>
+<div class="row" class="text-center">
+	<div class="col-md-6">
+		<h2>Client Projects</h2>
+		<p>iOS work that I've done for other people.</p>
+		<p><a class="btn btn-default" href="pages/clientprojects">Go to Client Projects</a></p>
 	</div>
 </div>

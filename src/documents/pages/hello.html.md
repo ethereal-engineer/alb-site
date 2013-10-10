@@ -51,7 +51,6 @@ pageOrder: 4
 - Writes for readability and reuse
 - Confident in concurrency
 - At ease with Core Data
-- Git advocate, AppleDoc lover and User experience critic
 - Well-versed in App Store guidelines: can give quick answers on possible reasons for rejection
 - Capable of giving reliable ballpark and in-depth estimates
 - Understands the importance of unit testing, UAT and QA
