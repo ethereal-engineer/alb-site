@@ -1,11 +1,8 @@
----
-layout: default
----
-
-<article id="clientproject" class="clientproject">
+<article id="clientproject-<%= @document.title %>" class="clientproject">
 	<div class="media">
 		<div class="pull-left" href="#">
 			<img class="media-object img-rounded" src="/images/appicons/<%= @document.icon %>">
+			<div class="device-icon">
 			<% if @document.device == "iPhone": %>
 				<span class="iphone_64 sprite pull-right"></span>
 			<% else if @document.device == "iPad": %>
@@ -13,6 +10,7 @@ layout: default
 			<% else: %>
 				<span class="ipad_iphone_64 sprite pull-right"></span>
 			<% end %>
+			</div>
 		</div>
 		<div class="media-body">
 			<h3 class="media-heading">

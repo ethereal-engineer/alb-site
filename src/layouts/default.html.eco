@@ -38,6 +38,8 @@
 	<%- @getBlock("styles").add(["/images/spritesheets/idevice-icons.css"]).toHTML() %>
 </head>
 <body>
+	<!-- Scripts -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 	<!-- Menu -->
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
@@ -47,7 +49,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">Project name</a>
+				<a class="navbar-brand" href="/"><%= @site.title or 'Project Name' %></a>
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
@@ -76,14 +78,19 @@
 
 		<!-- Footer -->
 		<footer>
-			<p class="pull-left">&copy; Company <%- (new Date()).getFullYear() %></p>
-			<p class="pull-right">
-				This website was last updated at <%= @site.date.toISOString() %>
-			</p>
+			<div class="row">
+				<br>
+				<p class="pull-left">&copy; <%= @site.author %> <%- (new Date()).getFullYear() %></p>
+				<p class="pull-right">
+					This website was last updated at <%= @site.date.toISOString() %>
+				</p>
+			</div>
+			<div class="row">
+<!-- 			<%- @getServiceButtons() %> -->
+			</div>
 		</footer>
 	</div><!-- /container -->
 
-	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	
 </body>
 </html>

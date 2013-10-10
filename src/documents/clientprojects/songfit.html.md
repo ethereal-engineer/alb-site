@@ -9,6 +9,7 @@ technologies: ['AVFoundation', 'iPhone', 'Map Kit', 'Core Location', 'REST', 'Fa
 roles: ['Lead Developer']
 storeurl: https://itunes.apple.com/au/app/songfit/id587176581
 categories: ['Music', 'Entertainment', 'Health & Fitness']
+date: 2012-11-01
 startdate: November 2012
 duration: 10 Months
 device: iPhone

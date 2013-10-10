@@ -1,0 +1,34 @@
+---
+layout: 'default'
+title: 'Home'
+---
+
+<!-- Pprimary marketing message or call to action -->
+<div class="jumbotron">
+	<h1>App Life Balance</h1>
+	<p>
+		I'm slowly putting together a place where I can store all of the things I regularly recommend or tweet about. This will be it, hopefully. There's a learning curve involved, as I'm not a web developer and I don't have a lot of free time. You'll just have to bear with me for now.
+	</p>
+	<div class="row">
+		<div class="col-md-6 text-center">
+			<%- @getTwitterFollowButton() %>
+		</div>
+		<div class="col-md-6 text-center">
+			<%- @getGithubFollowButton() %>
+		</div>
+	</div>
+</div>
+
+<!-- Example row of columns -->
+<div class="row" class="text-center">
+	<div class="col-md-6">
+		<h2>Apps</h2>
+		<p>I make apps, but I also come into contact with loads of them from many sources. Sometimes I need an app for a specific task, other times an app will leave such a strong impression on me that I feel the need to tell everyone about it. This is where I recommend, analyse and discuss apps.</p>
+		<p><a class="btn btn-default" href="pages/apps">Go to Apps</a></p>
+	</div>
+	<div class="col-md-6">
+		<h2>Tools</h2>
+		<p>I'm always on the prowl for tricks, techniques and tools to make my workflow as an iOS developer more efficient, more productive and more enjoyable. This is where I lay out the tools that I use and recommend to my peers.</p>
+		<p><a class="btn btn-default" href="pages/tools">Go to Tools</a></p>
+	</div>
+</div>

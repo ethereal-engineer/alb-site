@@ -7,6 +7,7 @@ icon: doctor-ipad.jpg
 technologies: ['iPad', 'Core Data', 'Rapid Prototyping', 'Nuance', 'Speech Recognition', 'Graphs', 'Charts', 'UI Design', 'HockeyApp']
 roles: ['Lead Developer']
 categories: ['Enterprise', 'Medical']
+date: 2011-11-01
 startdate: November 2011
 duration: 7 Months
 device: iPad

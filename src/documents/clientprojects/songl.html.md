@@ -10,6 +10,7 @@ roles: ['Lead Developer']
 storeurl: https://itunes.apple.com/au/app/songl/id547165902
 ipadstoreurl: https://itunes.apple.com/au/app/songl-for-ipad/id566177173
 categories: ['Music', 'Entertainment']
+date: 2012-07-01
 startdate: July 2012
 duration: 15 Months
 device: iPhone and iPad

@@ -1,19 +1,14 @@
 ```
-title: Docpad Resume
+title: Resume
 layout: default
-tags: ['intro','page']
-pageOrder: 1
+tags: ['resume','page']
+pageOrder: 4
 ```
-<div class="jumbotron">
-  <div class="container">
-    <h1>Adam Iredale</h1>
-    <p> iOS DEVELOPMENT SPECIALIST</p>
-    <p></p>
-  </div>
-</div>
+<h1>Adam Iredale <small> iOS Development Specialist</small></h1>
 
-> "Apps should be beautiful, functional, and always a pleasure to use."  
-
+<p class="lead">"Apps should be beautiful, functional, and always a pleasure to use."</p>
+  
+  
 ## Expertise
 
 <span class="label label-primary">Cocoa</span>
@@ -40,9 +35,6 @@ pageOrder: 1
 <span class="label label-primary">Unit Testing</span>
 <span class="label label-primary">Design Patterns</span>
 <span class="label label-primary">Database Design</span>
-<span class="label label-primary">SQL</span>
-<span class="label label-primary">JSON</span>
-<span class="label label-primary">REST</span>
 
 ## Active
 
@@ -71,7 +63,7 @@ pageOrder: 1
 
 <div class="row">
 <div class="col-md-6">
-<h2>At Home</h2>
+<h2>About Me</h2>
 <ul>
 	<li>Meditator</li>
 	<li>Tea enthusiast</li>
@@ -83,7 +75,7 @@ pageOrder: 1
 
 <div class="col-md-6">
 <div class="row">
-<h3><span class="glyphicon glyphicon-heart"></span> LOVE</h3>
+<h3><span class="glyphicon glyphicon-heart"></span> LOVES</h3>
 
 <span class="label label-primary">Git</span>
 <span class="label label-primary">Bash</span>
@@ -94,7 +86,7 @@ pageOrder: 1
 <span class="label label-primary">New Tools</span>
 </div>
 <div class="row">
-<h3><span class="glyphicon glyphicon-remove"></span> LOATHE</h3>
+<h3><span class="glyphicon glyphicon-remove"></span> LOATHES</h3>
 
 <span class="label label-default">Hacks</span>
 <span class="label label-default">Monoliths</span>

@@ -7,6 +7,7 @@ icon: zombiearcade.jpg
 technologies: ['OpenGL ES 1.0', 'iPhone', 'Bullet Physics', 'OpenAL', 'Blender', 'SIO2', 'C', 'Game Center', 'Leaderboards', 'Achievements', 'Unlockable Content', 'OGG', '3D Modelling', '3D Animation', 'Textures', 'Concurrency']
 roles: ['All Roles']
 categories: ['Games']
+date: 2009-09-01
 startdate: September 2009
 duration: 9 Months
 device: iPhone

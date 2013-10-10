@@ -1,13 +1,12 @@
 ---
 title: Client Projects
-layout: page
-pageOrder: 3
+layout: default
+pageOrder: 5
 ---
 
-<nav class="linklist">
-	<% for document in @getCollection('clientprojects').toJSON(): %>
-		<li><span><%= document.date.toDateString() %></span>
-		&raquo;
-		<a href="<%= document.url %>"><%= document.title %></a></li>
-	<% end %>
-</nav>
+<% for document in @getCollection('clientprojects').toJSON(): %>
+	<div class="row">
+		<div><%- document.contentRendered %></div>
+		<br>
+	</div>
+<% end %>

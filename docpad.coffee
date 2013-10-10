@@ -2,6 +2,8 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
+	watchOptions: preferredMethods: ['watchFile','watch']
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -12,29 +14,28 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://applifebalance.com"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.applifebalance.com'
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "App Life Balance"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Personal site of a dedicated iOS professional, meditator, tea enthusiast and PWNc.
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				ios, iphone, ipad, apple, narcolepsy, pwn, pwnc, meditation, software, design, engineering, cocoa
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Adam Iredale"
 
 			# The website author's email
 			email: "your@email.com"
@@ -53,7 +54,13 @@ docpadConfig = {
 				"/scripts/script.js"
 			]
 
-
+			# Services
+			services:
+				twitterFollowButton: 'iosengineer'
+				twitterTweetButton: 'iosengineer'
+				githubFollowButton: 'ironstorm'
+				googleAnalytics: 'UA-43945171-1'
+				
 
 		# -----------------------------
 		# Helper Functions
@@ -79,6 +86,25 @@ docpadConfig = {
 			# Merge the document keywords with the site keywords
 			@site.keywords.concat(@document.keywords or []).join(', ')
 
+		# Relative time
+		relativeTime: (time_value) ->
+		  parsed_date = Date.parse(time_value)
+		  relative_to = if arguments.length > 1 then arguments[1] else new Date()
+		  delta = parseInt((relative_to.getTime() - parsed_date) / 1000)
+		  if delta < 60
+		    return "less than a minute ago"
+		  else if delta < 120
+		    return "about a minute ago"
+		  else if delta < 2700
+		    return (parseInt(delta / 60)).toString() + " minutes ago"
+		  else if delta < 5400
+		    return "about an hour ago"
+		  else if delta < 86400
+		    return "about " + (parseInt(delta / 3600)).toString() + " hours ago"
+		  else if delta < 172800
+		    return "one day ago"
+		  else
+		    return (parseInt(delta / 86400)).toString() + " days ago"
 
 	# =================================
 	# Collections
@@ -88,12 +114,17 @@ docpadConfig = {
 		pages: (database) ->
 			database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
 
-		posts: (database) ->
-			database.findAllLive({tags:$has:'post'}, [date:-1])
-
 		clientprojects: (database) ->
 			database.findAllLive({tags:$has:'clientproject'}, [date:-1])
 
+		posts: (database) ->
+			database.findAllLive({tags:$has:'post'}, [date:-1])
+
+		apps: (database) ->
+			database.findAllLive({tags:$has:'app'}, [date:-1])
+			
+		tools: (database) ->
+			database.findAllLive({tags:$has:'tool'}, [date:-1])
 
 	# =================================
 	# Plugins
@@ -137,6 +168,14 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+					
+	# Environment options
+	# environments:
+#     	development:
+#         	templateData:
+#             	site:
+#                 	services:
+#                     	googleAnalytics: false
 }
 
 
