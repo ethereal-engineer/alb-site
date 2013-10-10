@@ -4,9 +4,13 @@ layout: default
 tags: ['intro','page']
 pageOrder: 1
 ```
-
-# Adam Iredale
-##  iOS DEVELOPMENT SPECIALIST
+<div class="jumbotron">
+  <div class="container">
+    <h1>Adam Iredale</h1>
+    <p> iOS DEVELOPMENT SPECIALIST</p>
+    <p></p>
+  </div>
+</div>
 
 > "Apps should be beautiful, functional, and always a pleasure to use."  
 
@@ -37,6 +41,8 @@ pageOrder: 1
 <span class="label label-primary">Design Patterns</span>
 <span class="label label-primary">Database Design</span>
 <span class="label label-primary">SQL</span>
+<span class="label label-primary">JSON</span>
+<span class="label label-primary">REST</span>
 
 ## Active
 
@@ -59,19 +65,13 @@ pageOrder: 1
 - Understands the importance of unit testing, UAT and QA
 - Works well alone but is even better in a team
 - Speaks some German and Japanese but is fluent in *"Designer"*
-- Able to understand complex ideas and systems
 - Switched on to available vendor components and solutions
 - Takes pride in grammatically-correct, friendly, upbeat App Store copy
 - Loves to squeeze every last bit of performance from an app with Instruments
 
-## Books
-
-- Cocoa Design Patterns
-- Test-Driven iOS Development
-
 <div class="row">
 <div class="col-md-6">
-<h2>About Me</h2>
+<h2>At Home</h2>
 <ul>
 	<li>Meditator</li>
 	<li>Tea enthusiast</li>
@@ -105,5 +105,5 @@ pageOrder: 1
 </div>
 </div>
 
-## Educated
+## Education
 BSc in Information & Communication Systems and Electronics,  Macquarie University, 2001
