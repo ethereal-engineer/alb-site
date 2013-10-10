@@ -5,12 +5,13 @@ tags: ['clientproject']
 clientname: Red Unicorn
 subclientname: Sony Music
 icon: songfit.jpg
-technologies: ['AVFoundation', 'iPhone', 'Map Kit', 'Core Location', 'REST', 'Facebook', 'Keychain', 'Encryption', 'NSOperationQueue', 'Background Tasks', 'Background Audio', 'DRM', 'CocoaHTTPServer', 'RNCryptor', 'MongoDB', 'Core Data', 'File Downloads', 'UIStoryboard', 'UIStoryboardSegue', 'Branding', 'Quartz Core', 'Store Kit', 'In-App Purchase', 'HockeyApp']
+technologies: ['AVFoundation', 'iPhone', 'Map Kit', 'Core Location', 'REST', 'Facebook', 'Keychain', 'Encryption', 'NSOperationQueue', 'Background Tasks', 'Background Audio', 'DRM', 'CocoaHTTPServer', 'RNCryptor', 'MongoDB', 'Core Data', 'File Downloads', 'UIStoryboard', 'UIStoryboardSegue', 'Branding', 'Quartz Core', 'Store Kit', 'In-App Purchase', 'HockeyApp', 'Concurrency']
 roles: ['Lead Developer']
 storeurl: https://itunes.apple.com/au/app/songfit/id587176581
 categories: ['Music', 'Entertainment', 'Health & Fitness']
 startdate: November 2012
 duration: 10 Months
+device: iPhone
 ```
 #### Summary
 

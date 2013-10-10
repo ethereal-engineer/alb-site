@@ -9,6 +9,7 @@ roles: ['Lead Developer']
 categories: ['Enterprise', 'Medical']
 startdate: November 2011
 duration: 7 Months
+device: iPad
 ```
 #### Summary
 

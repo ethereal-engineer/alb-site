@@ -35,6 +35,7 @@
 
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+	<%- @getBlock("styles").add(["/images/spritesheets/idevice-icons.css"]).toHTML() %>
 </head>
 <body>
 	<!-- Menu -->

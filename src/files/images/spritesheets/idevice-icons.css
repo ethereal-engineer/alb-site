@@ -1,0 +1,20 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:67210afcbe2d82a653753b39109cb909:1/1$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(idevice-icons.png);}
+
+.ipad_16 {width:14px; height:16px; background-position: -152px -20px}
+.ipad_64 {width:50px; height:62px; background-position: -66px -2px}
+.ipad_iphone_16 {width:16px; height:16px; background-position: -152px -2px}
+.ipad_iphone_64 {width:62px; height:62px; background-position: -2px -2px}
+.iphone_16 {width:10px; height:16px; background-position: -152px -38px}
+.iphone_64 {width:32px; height:62px; background-position: -118px -2px}

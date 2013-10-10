@@ -19,79 +19,91 @@ pageOrder: 1
 <span class="label label-primary">iPhone</span>
 <span class="label label-primary">iPad</span>
 
-## Features (Has/Is)
+## Experience
 
-- Expert in Cocoa, Objective-C
-- Broad framework knowledge
 - Developing apps for over 10 years, iOS for 4
-- Diverse industry exposure
-- Everyday tools: Xcode + Git
-- iPhone and iPad experienced: paradigms, styles and code
-- SDLC tick
-- Plugged-in to the developer community
-- Up-to-date with WWDC13, iOS 7, 64-bit
-- Confident with concurrency
-- Actively seeks out the most effective workflows, designs and tools
-- Agile, Scrumm and JIRA compatible
-- No stranger to database design, query optimising or SQL
-- Git advocate, AppleDoc lover and User experience critic
-- Well-versed in app-store guidelines and common quick answers for rejection
+- Diverse industry background
 
-## Functions (Does)
+## Exposure
+
+<span class="label label-primary">App Store</span>
+<span class="label label-primary">SDLC</span>
+<span class="label label-primary">Agile</span>
+<span class="label label-primary">JIRA</span>
+<span class="label label-primary">HockeyApp</span>
+<span class="label label-primary">Git</span>
+<span class="label label-primary">Subversion</span>
+<span class="label label-primary">Unit Testing</span>
+<span class="label label-primary">Design Patterns</span>
+<span class="label label-primary">Database Design</span>
+<span class="label label-primary">SQL</span>
+
+## Active
+
+- Plugged-in to the developer community
+- Regular attendee at Geek Breakfast AU and Cocoaheads
+- Up-to-date with WWDC13 content, the latest HIG and 64-bit guidelines
+- Hooked on iOS Dev Weekly, CocoaControls and NSHipster
+- Actively seeks out the most effective workflows, designs and tools
+
+## Advantage
 
 - Communicates clearly
-- Speaks basic German and Japanese but is fluent in *"Designer"*
+- Broad framework knowledge
+- Writes for readability and reuse
+- Confident in concurrency
+- At ease with Core Data
+- Git advocate, AppleDoc lover and User experience critic
+- Well-versed in App Store guidelines: can give quick answers on possible reasons for rejection
+- Capable of giving reliable ballpark and in-depth estimates
+- Understands the importance of unit testing, UAT and QA
+- Works well alone but is even better in a team
+- Speaks some German and Japanese but is fluent in *"Designer"*
 - Able to understand complex ideas and systems
-- Writes robust, reusable and readable production-quality code
-- It's important to reread the HIG every so often
-- Custom or native look
-- Works well autonomously
-- Dislikes poorly specified requirements
-- Understands the importance and place of unit testing, UAT and QA
-- I know how to OCMock, OCUnit
-- Logging with Cocoalumberjack
-- Good at estimates; work towards under them
-- I love reveal app, Deploymate, SLicy
-- Core Data Migration across versions, performance, proper design and rules
-- Switched on to vendor components and prebuilt solutions
+- Switched on to available vendor components and solutions
 - Takes pride in grammatically-correct, friendly, upbeat App Store copy
-- Instruments/Performance
+- Loves to squeeze every last bit of performance from an app with Instruments
 
-## Books, Sites & Groups
+## Books
 
 - Cocoa Design Patterns
 - Test-Driven iOS Development
-- NSHipster
-- iOS Dev Weekly
-- Cocoaheads Sydney
-- Geek Breakfast AU
 
-## About Me
+<div class="row">
+<div class="col-md-6">
+<h2>About Me</h2>
+<ul>
+	<li>Meditator</li>
+	<li>Tea enthusiast</li>
+	<li>Tinkerer</li>
+	<li>Guitarist</li>
+	<li>Dog person</li>
+</ul>
+</div>
 
-- Meditator
-- Tea enthusiast
-- Tinkerer
-- Guitarist
-- Dog person
+<div class="col-md-6">
+<div class="row">
+<h3><span class="glyphicon glyphicon-heart"></span> LOVE</h3>
 
-### LOVES
+<span class="label label-primary">Git</span>
+<span class="label label-primary">Bash</span>
+<span class="label label-primary">Alfred</span>
+<span class="label label-primary">Cocoapods</span>
+<span class="label label-primary">AppleDoc</span>
+<span class="label label-primary">Markdown</span>
+<span class="label label-primary">New Tools</span>
+</div>
+<div class="row">
+<h3><span class="glyphicon glyphicon-remove"></span> LOATHE</h3>
 
-- Git
-- The command line
-- Keyboard shortcuts
-- Cocoapods 
-- AppleDoc
-- Markdown
-- Etymology
-- Science & Technology
+<span class="label label-default">Hacks</span>
+<span class="label label-default">Monoliths</span>
+<span class="label label-default">Bad UX</span>
+<span class="label label-default">Poor Documentation</span>
+<span class="label label-default">Poorly Specified Requirements</span>
+</div>
+</div>
+</div>
 
-### LOATHES
-
-- Hacks
-- Code Monoliths
-- Bad UX
-- Poor documentation
-- Poorly specified requirements
-
-## Formal Education
+## Educated
 BSc in Information & Communication Systems and Electronics,  Macquarie University, 2001

@@ -4,11 +4,12 @@ layout: clientproject
 tags: ['clientproject']
 clientname: (names redacted)
 icon: super8.png
-technologies: ['Video', 'Video Recording', 'OpenGL ES 2.0', 'iPhone', 'Audio Unit', 'AVFoundation', 'Facebook', 'Twitter', 'Vimeo', 'OAuth-2', 'Video Upload', 'YouTube', 'Bitly', 'Live Rendering', 'Live Preview', 'Procedural Sound Effects', 'Procedural Textures', 'Video Compositing', 'ESSL', 'Animation', 'Notification Center', 'HockeyApp', 'Airplay']
+technologies: ['Video', 'Video Recording', 'OpenGL ES 2.0', 'iPhone', 'Audio Unit', 'AVFoundation', 'Facebook', 'Twitter', 'Vimeo', 'OAuth-2', 'Video Upload', 'YouTube', 'Bitly', 'Live Rendering', 'Live Preview', 'Procedural Sound Effects', 'Procedural Textures', 'Video Compositing', 'ESSL', 'Animation', 'Notification Center', 'HockeyApp', 'Airplay', 'Concurrency']
 roles: ['Lead Developer']
 categories: ['Video', 'Entertainment', 'Social Networking']
 startdate: January 2011
 duration: 11 Months
+device: iPhone
 ```
 #### Summary
 

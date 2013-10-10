@@ -5,13 +5,14 @@ tags: ['clientproject']
 clientname: Red Unicorn
 subclientname: Digital Music Distribution (DMD)
 icon: songl.jpg
-technologies: ['AVFoundation', 'iPhone', 'iPad', 'Pagination', 'REST', 'Facebook', 'Keychain', 'Encryption', 'Google Analytics', 'Flurry', 'NSOperationQueue', 'GCD', 'Background Tasks', 'Background Audio', 'DRM', 'CocoaHTTPServer', 'Offline Sync', 'HTTPRangeRequests', 'RNCryptor', 'MongoDB', 'Core Data', 'New Relic', 'iOS 7', 'Smart Banners', 'File Downloads', 'HockeyApp', 'Airplay']
+technologies: ['AVFoundation', 'iPhone', 'iPad', 'Pagination', 'REST', 'Facebook', 'Keychain', 'Encryption', 'Google Analytics', 'Flurry', 'NSOperationQueue', 'GCD', 'Background Tasks', 'Background Audio', 'DRM', 'CocoaHTTPServer', 'Offline Sync', 'HTTPRangeRequests', 'RNCryptor', 'MongoDB', 'Core Data', 'New Relic', 'iOS 7', 'Smart Banners', 'File Downloads', 'HockeyApp', 'Airplay', 'Concurrency']
 roles: ['Lead Developer']
 storeurl: https://itunes.apple.com/au/app/songl/id547165902
 ipadstoreurl: https://itunes.apple.com/au/app/songl-for-ipad/id566177173
 categories: ['Music', 'Entertainment']
 startdate: July 2012
 duration: 15 Months
+device: iPhone and iPad
 ```
 #### Summary
 
