@@ -41,7 +41,7 @@ title: 'Home'
 	<div class="col-md-6">
 		<h2>Resume</h2>
 		<p>A bunch of words that try to explain how awesome I am. Humble, too.</p>
-		<p><a class="btn btn-default" href="pages/resume">Go to Resume</a></p>
+		<p><a class="btn btn-default" href="pages/hello">Go to Resume</a></p>
 	</div>
 </div>
 <div class="row" class="text-center">
