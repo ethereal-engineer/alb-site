@@ -40,7 +40,9 @@
     "docpad-plugin-related": "~2.0.5",
     "docpad-plugin-stylus": "~2.4.0",
     "docpad-plugin-text": "~2.3.1",
-    "docpad-plugin-services": "~2.4.4"
+    "docpad-plugin-services": "~2.4.4",
+    "docpad-plugin-moment": "~2.0.1",
+    "moment": "~2.3.1"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.3"

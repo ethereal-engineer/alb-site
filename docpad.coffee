@@ -1,3 +1,6 @@
+# Import
+moment = require('moment')
+
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
@@ -105,6 +108,10 @@ docpadConfig = {
 		    return "one day ago"
 		  else
 		    return (parseInt(delta / 86400)).toString() + " days ago"
+
+		# Post meta
+		postTimestamp: (date, format="MMMM Do YYYY, h:mm:ss a") -> return moment(date).format(format)
+		postDate: (date, format="MMMM DD, YYYY") -> return moment(date).format(format)
 
 	# =================================
 	# Collections

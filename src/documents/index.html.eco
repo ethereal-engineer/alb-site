@@ -22,14 +22,14 @@ title: 'Home'
 <!-- Example row of columns -->
 <div class="row" class="text-center">
 	<div class="col-md-6">
-		<h2>Apps</h2>
-		<p>I make apps, but I also come into contact with loads of them from many sources. Sometimes I need an app for a specific task, other times an app will leave such a strong impression on me that I feel the need to tell everyone about it. This is where I recommend, analyse and discuss apps.</p>
-		<p><a class="btn btn-default" href="pages/apps">Go to Apps</a></p>
+		<h2>Apps <small>WIP</small></h2>
+		<p>I make apps, but I also come into contact with loads of them from many sources. Sometimes I need an app for a specific task, other times an app will leave such a strong impression on me that I feel the need to tell everyone about it. This is where I will recommend, analyse and discuss apps.</p>
+<!-- 		<p><a class="btn btn-default disabled" href="pages/apps">Go to Apps</a></p> -->
 	</div>
 	<div class="col-md-6">
-		<h2>Tools</h2>
-		<p>I'm always on the prowl for tricks, techniques and tools to make my workflow as an iOS developer more efficient, more productive and more enjoyable. This is where I lay out the tools that I use and recommend to my peers.</p>
-		<p><a class="btn btn-default" href="pages/tools">Go to Tools</a></p>
+		<h2>Tools <small>WIP</small></h2>
+		<p>I'm always on the prowl for tricks, techniques and tools to make my workflow as an iOS developer more efficient, more productive and more enjoyable. This is where will I lay out the tools that I use and recommend to my peers.</p>
+<!-- 		<p><a class="btn btn-default disabled" href="pages/tools">Go to Tools</a></p> -->
 	</div>
 </div>
 <div class="row" class="text-center">
