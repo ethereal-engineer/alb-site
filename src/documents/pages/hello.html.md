@@ -88,10 +88,10 @@ pageOrder: 4
 <h3><span class="glyphicon glyphicon-remove"></span> LOATHES</h3>
 
 <span class="label label-default">Hacks</span>
+<span class="label label-default">Bandaid Solutions</span>
 <span class="label label-default">Monoliths</span>
 <span class="label label-default">Bad UX</span>
 <span class="label label-default">Poor Documentation</span>
-<span class="label label-default">Poorly Specified Requirements</span>
 </div>
 </div>
 </div>
