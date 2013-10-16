@@ -42,7 +42,8 @@
     "docpad-plugin-text": "~2.3.1",
     "docpad-plugin-services": "~2.4.4",
     "docpad-plugin-moment": "~2.0.1",
-    "moment": "~2.3.1"
+    "moment": "~2.3.1",
+    "app-store-reviews": "0.0.2"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.5.3"
