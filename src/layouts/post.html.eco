@@ -5,6 +5,11 @@ layout: default
 <article id="post" class="post">
 	<h1><%= @document.title %> <small><%= @postTimestamp(@document.date) %></small></h1>
 	<div class="post-content"><%- @content %></div>
+	<br>
+	<div>
+		<%- @getTwitterTweetButton() %>
+	</div>
+	<br>
 </article>
 
 <footer>
