@@ -12,7 +12,7 @@ Being the owner of a brand new MacBook (one that I hope to be able to *trade-and
   
 ## The Helpful Clerk
 
-When I bought my laptop, I was fortunate enough to be served by one very helpful Apple Business Specialist named Alistair, who just so happened to be a self-confessed bag tragic. In addition to talking me out of paying an extra $200 for the 768GB SSD and giving me a discount (THANK YOU!), he also deftly marched me upstairs to show me some of his favourite bag sites. We looked at swanky bags. We looked at [bomb-proof bags][bomb]. We looked at [offerings on Etsy][etsy]. Most importantly, he pointed me at [RushFaster.com][rf], which is an excellent place to start looking for any kind of bag (or wallet). Several days later, out of all of the sites he had pummelled into my head, only RushFaster remained. After a quick review of available styles, only one brand appealed to me.
+When I bought my laptop, I was fortunate enough to be served by one very helpful Apple Business Specialist named Alistair, who just so happened to be a self-confessed bag tragic. In addition to giving me some sage advice on my purchases, he also deftly marched me upstairs to show me some of his favourite bag sites. We looked at swanky bags. We looked at [bomb-proof bags][bomb]. We looked at [offerings on Etsy][etsy]. Most importantly, he pointed me at [RushFaster.com][rf], which is an excellent place to start looking for any kind of bag (or wallet). Several days later, out of all of the sites he had pummelled into my head, only RushFaster remained. After a quick review of available styles, only one brand appealed to me.
 
 ## It's Pronounced "Coat Ay Sea-Elle"
 
